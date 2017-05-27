@@ -33,5 +33,8 @@ public class PostBuildProcess
         } else {
             Debug.LogError ("Slack Post Timeout.");
         }
+
+
+        Debug.Log("Finish");
     }
 }
